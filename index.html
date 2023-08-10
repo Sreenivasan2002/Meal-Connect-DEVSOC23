@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>MealConnect</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Nav Bar Start -->
+        <div class="navbar-expand-lg bg-dark navbar-dark">
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse" style="height:70px;">
+                    <img src="img/img2.jpg" alt="" style="height:60px; width:160px;">
+                    <div class="navbar-nav ml-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">AboutUS</a>
+                        <a href="contact.html" class="nav-item nav-link">ContactUs</a>
+                        <a href="partners.html" class="nav-item nav-link">Partners</a>
+                        <a href="preferences.html" class="nav-item nav-link">Preferences</a>
+                        <a href="faq.html" class="nav-item nav-link">FAQ</a>
+                     
+                    </div>
+                </div>
+            </div>
+        <!-- Nav Bar End -->
+        <div class="inside mt-5 mb-5">
+            <h1 style="display:flex; justify-content:center">Welcome to MealConnect</h1>
+            <h3 style="display:flex; justify-content:center">Helping the underprivileged with nutritious meals</h3>
+        </div>
+
+        <!-- Carousel Start -->
+        <div class="carousel" style="background-color:beige">
+            <div class="container-fluid">
+                <div class="owl-carousel">
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/orphans.jpg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Let's be kind for children, transforming lives, igniting hope for every child.
+                            </h1>
+                            <!-- <p>
+                                Transforming lives, igniting hope for every child.
+                            </p> -->
+                            <div class="carousel-btn">
+                                <a class="btn btn-custom" href="login_beneficiary.html">Beneficiary</a>
+                                <a class="btn btn-custom btn-play" href="login_donor.html">Contributer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/cows.jpeg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Embraze the divine harmony: Nuruting and protecting sacred cows</h1>
+                            <p>
+                               It will focus on develop INDIA mission through social awareness
+                            </p>
+                            <div class="carousel-btn">
+                                <a class="btn btn-custom" href="login_beneficiary.html">Beneficiary</a>
+                                <a class="btn btn-custom btn-play" href="login_donor.html">Contributer</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="carousel-img">
+                            <img src="img/oldage.jpeg" alt="Image">
+                        </div>
+                        <div class="carousel-text">
+                            <h1>Where love and care embrace the golden years.</h1>
+                            <!-- <p>
+                                Easily  provide Orphange Management System facilities to children & needy persons
+                            </p> -->
+                            <div class="carousel-btn">
+                                <a class="btn btn-custom" href="login_beneficiary.html">Beneficiary</a>
+                                <a class="btn btn-custom btn-play" href="login_donor.html">Contributer</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Video Modal Start-->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Video Modal End -->
+        
+
+        <!-- About Start -->
+        <div class="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="about-img" data-parallax="scroll" data-image-src="img/back.jpg"></div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="section-header">
+                            <p>Learn About Us</p>
+                            <h2>What you might not need could be the most important thing to somebody else.</h2>
+                        </div>
+                        <div class="about-tab">
+                            <ul class="nav nav-pills nav-justified">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="pill" href="#tab-content-1">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="pill" href="#tab-content-3">Vision</a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content">
+                                <div id="tab-content-1" class="container tab-pane active">
+                                    NGOs are private agencies that can support development at local, national and international level by organising indigenous groups. NGOs as citizen groups raise awareness and influence policies and include independent cooperatives, community associations, societies, groups and various other associations.
+                                </div>
+                                <div id="tab-content-2" class="container tab-pane fade">
+                                    The Foundation for Social Change and Inclusion works for the social development and integration of underprivileged individuals, groups and communities in Bulgaria.
+                                </div>
+                                <div id="tab-content-3" class="container tab-pane fade">
+                                    Our work aims to break the vicious cycle of poverty and social isolation and to restore hope for a better future. We believe that every person has the right to access resources and opportunities in order to live and develop with dignity and to become an active and contributing member of our society..
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Team Start -->
+        <div class="team">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Meet Our Team</p>
+                    <h2>Awesome guys behind our website</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-3 col-md-5">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/satvik.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Satvik Rajan</h2>
+                                <p>Front-End</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/binod.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Sanchya</h2>
+                                <p>Back-End</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/profile pic.jpeg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Sreenivasan S</h2>
+                                <p>Front-End</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-lg-3 col-md-5">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/loli.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Sreelasya</h2>
+                                <p>Web-Designer</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-5">
+                        <div class="team-item">
+                            <div class="team-img">
+                                <img src="img/dicku.jpg" alt="Team Image">
+                            </div>
+                            <div class="team-text">
+                                <h2>Sameeksha</h2>
+                                <p>Back-End</p>
+                                <div class="team-social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+       
+        
+        <!-- Contact Start -->
+        <div class="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p>Get In Touch</p>
+                    <h2>Contact for any query</h2>
+                </div>
+                <div class="contact-img">
+                    <img src="img/contact.jpg" alt="Image">
+                </div>
+                <div class="contact-form">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+     
+                 <div class="footer-col " style= "float:left">
+                     <h1>United by Food</h1>
+                     <img class="LogoImage"src="img/img2.jpg" style="height:50px; width:100px" alt="LOGO">
+                     
+                 </div>
+                    <div class="footer-col">
+                        <h4>Company</h4>
+                        <ul>
+                            <li><a href="About us.html">About us</a></li>
+                            <li><a href="our services.html">our services</a></li>
+                            <li><a href="privacy policy.html">privacy policy</a></li>
+                            <li><a href="Terms and Condition.html">Terms and Condition</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Contact</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Help and Support</a></li>
+                            <li><a href="#">Partner With Us</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <p class="copyright">© 2023 Meal Connect</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+        <!-- Footer End -->
+        
+        <!-- Back to top button -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        
+        <!-- Pre Loader -->
+        <div id="loader" class="show">
+            <div class="loader"></div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/parallax/parallax.min.js"></script>
+        
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
